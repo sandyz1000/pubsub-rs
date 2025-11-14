@@ -1,0 +1,23 @@
+[package]
+name = "pubsub"
+version = "0.1.0"
+authors = ["Sandip Dey <sandip.dey1988@yahoo.com>"]
+edition = "2024"
+license = "MIT"
+
+[dependencies]
+async-trait = { version = "0.1.89" }
+fred = { version = "10.1.0" }
+log = "0.4.28"
+thiserror = { version = "2.0.17" }
+tokio = { version = "1.48.0", features = ["full"] }
+anyhow = { version = "1.0.100" }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0" }
+dashmap = { version = "6.1.0" }
+regex = { version = "1.11" }
+futures = { version = "0.3" }
+chrono = "0.4.42"
+
+[dev-dependencies]
+env_logger = "0.11"
